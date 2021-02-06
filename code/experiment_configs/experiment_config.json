@@ -1,0 +1,79 @@
+{
+  "experiments": [
+    {
+      "feature": "sentiment_word",
+      "mode": "att_word_word",
+      "embedding_size": -1
+    },
+    {
+      "feature": "cat_dis_word",
+      "mode": "att_sent_word",
+      "embedding_size": 0
+    },
+    {
+      "feature": "modal_word",
+      "mode": "att_sent_word",
+      "embedding_size": 5
+    },
+    {
+      "feature": "pos_tag_seq_word",
+      "mode": "att_sent_word",
+      "embedding_size": 5
+    },
+    {
+      "feature": "wn_pos_tag_seq_word",
+      "mode": "att_word_word",
+      "embedding_size": 5
+    },
+    {
+      "feature": "lda_word",
+      "mode": "att_sent_word",
+      "embedding_size": -1
+    },
+    {
+      "feature": "lda_sent",
+      "mode": "att_doc_sent",
+      "embedding_size": -1
+    },
+    {
+      "feature": "lda_doc",
+      "mode": "att_doc_doc",
+      "embedding_size": -1
+    },
+    {
+      "feature": "readability_sent",
+      "mode": "att_doc_sent",
+      "embedding_size": -1
+    },
+    {
+      "feature": "readability_doc",
+      "mode": "att_doc_doc",
+      "embedding_size": -1
+    },
+    {
+      "feature": "argumentation_word",
+      "mode": "att_sent_word",
+      "embedding_size": 0
+    },
+    {
+      "feature": "discourse_func_sent",
+      "mode": "att_sent_sent",
+      "embedding_size": 5
+    },
+    {
+      "feature": "discourse_func_vec_sent",
+      "mode": "att_doc_sent",
+      "embedding_size": -1
+    },
+    {
+      "feature": "word_count_doc",
+      "mode": "att_doc_doc",
+      "embedding_size": -1
+    },
+    {
+      "feature": "word_count_sent",
+      "mode": "att_sent_sent",
+      "embedding_size": -1
+    }
+  ]
+}

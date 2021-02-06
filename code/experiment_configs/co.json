@@ -1,0 +1,9 @@
+{
+  "experiments": [
+    {
+      "feature": "source_text_word",
+      "mode": "co_sent_word",
+      "embedding_size": -1
+    }
+  ]
+}
