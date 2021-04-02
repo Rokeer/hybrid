@@ -816,10 +816,7 @@ def main():
     for ii in range(num_epochs):
         logger.info('Epoch %s/%s' % (str(ii + 1), num_epochs))
         start_time = time.time()
-        if cross_domain:
-            history = model.fit(x=x_train, y=y_train, validation_split=0.1, batch_size=batch_size, epochs=1, verbose=0, shuffle=True)
-        else:
-            history = model.fit(x=x_train, y=y_train, batch_size=batch_size, epochs=1, verbose=0, shuffle=True)
+        history = model.fit(x=x_train, y=y_train, batch_size=batch_size, epochs=1, verbose=0, shuffle=True)
         print(history.history)
         tt_time = time.time() - start_time
         logger.info("Training one epoch in %.3f s" % tt_time)
